@@ -1,5 +1,5 @@
-import "./App.css"
-import Board from "./components/Board";
+import './App.css';
+import Board from './components/Board';
 
 function App() {
   return (
@@ -7,9 +7,7 @@ function App() {
       <div className="game-board">
         <Board />
       </div>
-      <div className="game-info">
-        game-info
-      </div>
+      <div className="game-info">game-info</div>
     </div>
   );
 }
